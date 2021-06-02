@@ -1,14 +1,5 @@
-INSTALL_DIR=~/.local/bin
+After cloning the repository to your computer.
 
-all:
-	@echo "Please run 'make install'"
+In your terminal navigate to the Hello Hubers folder.
 
-install:
-	@echo ""
-	mkdir -p $(INSTALL_DIR)
-	cp bashmarks.sh $(INSTALL_DIR)
-	@echo ""
-	@echo "Please add 'source $(INSTALL_DIR)/hello.sh' to your .bashrc file"
-	@echo ''
-
-.PHONY: all install
+The run " chmod +x hello.sh "
