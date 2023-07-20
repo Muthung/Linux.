@@ -25,3 +25,4 @@ Here am going to use those features to create basic bash shell scripts fro educa
 1. Hello Hubers.
 2. Bashmarks
 3. Word Frequency.
+4. Valid Phone Numbers.
