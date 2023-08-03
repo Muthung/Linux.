@@ -9,3 +9,5 @@ character.
 
 #### Implementation
 
+Use the *awk* command in the linux shell to transpose the content of the *file.txt*.
+

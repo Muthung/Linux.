@@ -18,6 +18,7 @@ Here am going to use those features to create basic bash shell scripts fro educa
 
 1. Clone the repository into your computer. 
 2. Use run option ( bash ) in the intergrated terminal.
+   - Make the files executable using *chmod +x <filename>*. Then run it using *./filename*.
 3. if there is an error. Attach a terminal to the scripts input/output ( launch configuration )
 
 # Projects
