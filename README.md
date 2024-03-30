@@ -21,7 +21,7 @@ Here am going to use those features to create basic bash shell scripts fro educa
    - Make the files executable using *chmod +x <filename>*. Then run it using *./filename*.
 3. if there is an error. Attach a terminal to the scripts input/output ( launch configuration )
 
-# Projects
+# myProjects.1
 
 1. Hello Hubers.
 2. Bashmarks
