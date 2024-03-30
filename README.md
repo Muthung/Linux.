@@ -1,19 +1,5 @@
 # Linux Shell Scripting
 
- Shell is an environment provided for user interaction and executes commands read from the standard input device.
- Bash ( Bourne-Again Shell ) its open source and mostly in linux.
- Features are :
- 
-    Variables - they hold value given.
-    Positional parameters - keywords act as a command to execute something special.
-    Exit status - its relayed upon exit to output success/failure.
-    Conditional statements - " if " and conditions.
-    Loops - write loops ; for, while e.t.c
-    Functions - function which looks like a script within scripts.
-    Logical and Arithmetic Operators.
-    
-Here am going to use those features to create basic bash shell scripts fro educational purposes.
-
 # Setup / Installation
 
 1. Clone the repository into your computer. 
@@ -28,3 +14,4 @@ Here am going to use those features to create basic bash shell scripts fro educa
 3. Word Frequency.
 4. Valid Phone Numbers.
 5. Transpose File.
+
