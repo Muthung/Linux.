@@ -4,11 +4,12 @@ figlet "Simple  System Scanner"
 
 service_check() {
     name_service=$1
+    service_version=$(dpkg-query -W -f='${Version}' "$name_service" 2>/dev/null)
     if systemctl is-active --quiet "$name_service"; then
-        echo " $name_service is running."
+        echo " $name_service is running. "
     else
         echo ""
-        echo -e ">>> $name_service is down. DEFENSE."
+        echo -e ">>> $name_service is down. DEFENSE. Version: $service_version"
         echo ""
         read -p ">>> Next action or alert for $name_service: " action
         echo ""
