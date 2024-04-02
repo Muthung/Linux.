@@ -7,21 +7,23 @@ service_check() {
     if systemctl is-active --quiet "$name_service"; then
         echo " $name_service is running."
     else
-        echo "$name_service is not running. DEFENSE."
-        read -p "Next action or alert for $name_service: " action
+        echo ""
+        echo -e ">>> $name_service is down. DEFENSE."
+        echo ""
+        read -p ">>> Next action or alert for $name_service: " action
+        echo ""
         echo "Taking action: $action"
     fi
 }
 
-service_check "ssh"
-service_check "apache2"
-service_check "apache2"
-service_check "vsftpd"
-service_check "postfix"
-service_check "dovecot"
-service_check "dovecot"
-service_check "bing9"
-service_check "mysql"
-service_check "xrdp"
-service_check "smbd"
-service_check "nmbd"
+service_check "SSH"
+service_check "APACHE2"
+service_check "APACHE2"
+service_check "VSFTPD"
+service_check "POSTFIX"
+service_check "DOVECOT"
+service_check "BING9"
+service_check "MySQL"
+service_check "XRDP"
+service_check "SMBD"
+service_check "SMBD"
