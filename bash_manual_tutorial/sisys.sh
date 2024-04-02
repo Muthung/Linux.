@@ -1,11 +1,11 @@
 #!/bin/bash
 
-echo "Simple System Scanner"
+figlet "Simple  System Scanner"
 
 service_check() {
     name_service=$1
     if systemctl is-active --quiet "$name_service"; then
-        echo "$name_service is running."
+        echo " $name_service is running."
     else
         echo "$name_service is not running. DEFENSE."
         read -p "Next action or alert for $name_service: " action
