@@ -15,6 +15,10 @@
 4. Valid Phone Numbers.
 5. Transpose File.
 
+# Bash Manual Tutorial
+
+1. sisys - simple system scanner
+
 # BASH 
 
 Bash contains features that appear in other popular shells, and some features that only appear in Bash. Some of the shells that Bash has borrowed concepts from are the Bourne Shell(sh)
