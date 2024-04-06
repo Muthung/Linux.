@@ -17,7 +17,10 @@
 
 # Bash Manual Tutorial
 
-1. sisys - simple system scanner
+In this tutorial, I will cover the basics of the **select** construct in Bash. It allows developers to easily generate menus, when writitng shell scripts that require user input.
+
+1. sisys.sh (simple system scanner).
+2. logger.sh (system logfiles cleaner).
 
 # BASH 
 
